@@ -1,0 +1,27 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Simple discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioZanoni/discordbot.git"
+  },
+  "author": "FlavioZanoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlavioZanoni/discordbot/issues"
+  },
+  "homepage": "https://github.com/FlavioZanoni/discordbot#readme"
+}
